@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.center{
+    background-color: #ACE4E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid ;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    /* overflow: auto; */
+    position: sticky;
+    overflow: auto ;
+}
+.center::-webkit-scrollbar{
+    width: 2px;
+}
+.center::-webkit-scrollbar-track{
+    color: black;
+}
+.center::-webkit-scrollbar-thumb{
+    width: 20px;
+}
+.background{
+    background-color: #0B4350;
+    color: black;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border{
+    border: 2px solid white;
+    background-color: #0B4350;
+    border-radius: 50px;
+    height: 80%;
+    width: 80%;
+    padding: 1rem;
+    border-color:#F58BCF;
+}
+
+.number{
+    color: white;
+    font-weight: bold;
+    font-size: 10rem;
+}
+
+.content{
+    /* border: 2px solid black; */
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F58BCF;
+}
+.left{
+    /* background-color: pink; */
+    height: 90%;
+    width: 50%;
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.right{
+    /* background-color: red; */
+    height: 90%;
+    width: 50%;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+.border h1{
+    color: white;
+}
+
+iframe{
+    height: 100vh;
+}
+
+
+.button{
+    /* border: 2px solid red */
+    background-color: #F58BCF;
+    height: 1.2rem;
+    width: 2.5rem;
+    border-radius: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.circle{
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    right: -0.3rem;
+    background-color: #E7E6AD;
+}
+
+.back{
+    background: url('./assets/NODAL_LINE.svg') no-repeat center center;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #F58BCF;
+}

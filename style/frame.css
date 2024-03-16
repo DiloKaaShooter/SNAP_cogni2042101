@@ -1,0 +1,81 @@
+.bg{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F58BCF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.content1{
+    height: 30vh;
+    width: 100vw;
+    background-color: #003E29;  
+    transform:skewY(-5deg);
+    position: relative ;
+    top: 3.9rem;
+}
+.content2{
+    height: 30vh;
+    width: 100vw;
+    background-color: #003E29;  
+    transform:skewY(5deg);
+    position: relative ;
+    bottom: 3.9rem;
+}
+
+.box{
+    background-color: #E7E6AD;
+    width: 29rem;
+    height: 4rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+}
+
+
+.asset{
+    background: url('../assets/PINK_CIRCLE.svg') no-repeat center center;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%;
+    position: absolute;
+    top: 52%;
+
+}
+
+@keyframes slide {
+    0%{
+
+    }
+    25%{
+        transform: rotate(360deg);
+        top: 54%;
+        transform: translateX(5vw);
+    }
+    50%{
+        transform: rotate(720deg);
+        top: 54%;
+        transform: translateX(35vw);
+    }
+    75%{
+        transform: rotate(360deg);
+        top: 54%;
+        transform: translateX(50vw);
+    }
+    100%{
+        transform: rotate(360deg);
+        top: 60%;
+        transform: translateX(80vw);
+    }
+}
+
+
+.asset{
+    animation: slide 5s ease-in-out;
+}
